@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ashok Kanjarla</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ashok Kanjarla</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">My Skills</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/ashok pro1.jpeg" alt="Ashok profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Ashok Kanjarla</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Ashok Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a target="_blank" href="https://www.linkedin.com/in/ashok-kanjarla"><img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" /></a>
+        <a target="_blank" href="https://github.com/Kanjaas"><img src="./assets/github.png" alt="My Github profile" class="icon" /> </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>5+ years <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor's Degree<br />Master's Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am an experienced FrontEnd Web Developer with over 5 years of expertise in designing and developing web applications for various clients across diverse industries. I completed my Master's degree in 2019 and have since worked with renowned clients such as Verizon, GPC, and Walmart.
+          </p>
+          <br>
+          <p>
+            Throughout my career, I have consistently delivered high-quality front-end solutions, specializing in creating responsive and user-friendly interfaces. My experience spans across multiple technologies and frameworks, allowing me to meet complex project requirements while adhering to best practices.
+          </p>
+          <br>
+          <p>
+            Currently, I am working as a FrontEnd Web Developer at Verizon through Advithri Technologies LLC, where I collaborate with cross-functional teams to build robust and scalable web applications. My passion for web development drives me to stay updated with the latest trends and continuously improve my skills to create efficient, innovative solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <!-- <p class="section__text__p1">Explore My</p> -->
+    <h1 class="title">My Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SASS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React.js</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Redux</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <h1 class="title">My Experience</h1>
+    <!-- <div class="contact-info-upper-container">
+      <div class="article-container">
+        <div class="row-md-12">
+          <div class="resume-wrap ftco-animate">
+            <span class="date"> Jan 2021- Present</span>
+            <h2>FrontEnd Web Developer</h2>
+            <span class="position">Client: Verizon</span></br>
+            <span class="position">Employer: Advithri Technologies LLC</span>
+            <div style="padding-left:13px;">
+              <ul>
+                <li>Webapplication designing and development using HTML, CSS, ReactJS and Redux.</li>
+                <li>Implementing different modules in ReactJS to integrate with designs and requirements.</li>
+                <li>Implemented state management of the application of the React Redux with middleware
+                  with Thunk and Redux Saga.</li>
+                <li>Design and development of web pages using AEM 5.6, JavaScript, HTML, CSS, Ajax
+                  and JQuery.</li>
+                <li>UsedAxios and Fetch API with React for making AJAX Calls.</li>
+                <li>Working with ECMAScript 6 new features like Arrow Functions, Template Literals and
+                  Destructing Assignments.</li>
+                <li>Wrotetest plans and performed unit testing and performance testing.</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="contact-info-upper-container">
+        <div class="row-md-12">
+         <div class="resume-wrap ftco-animate">
+            <span class="date">Jan 2021- Present</span>
+            <h2>FrontEnd Web Developer</h2>
+            <span class="position">Client: Verizon</span></br>
+            <span class="position">Employer: Advithri Technologies LLC</span>
+            <div style="padding-left:13px;">
+              <ul>
+                <li>Webapplication designing and development using HTML, CSS, ReactJS and Redux.</li>
+                <li>Implementing different modules in ReactJS to integrate with designs and requirements.</li>
+                <li>Implemented state management of the application of the React Redux with middleware
+                  with Thunk and Redux Saga.</li>
+                <li>Design and development of web pages using AEM 5.6, JavaScript, HTML, CSS, Ajax
+                  and JQuery.</li>
+                <li>UsedAxios and Fetch API with React for making AJAX Calls.</li>
+                <li>Working with ECMAScript 6 new features like Arrow Functions, Template Literals and
+                  Destructing Assignments.</li>
+                <li>Wrotetest plans and performed unit testing and performance testing.</li>
+
+              </ul>
+            </div>
+         </div>
+        </div>
+    </div>
+    <div class="contact-info-upper-container">
+        <div class="row-md-12">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">Feb 2020- Jan 2021</span>
+            <h2>FrontEnd Web Developer</h2>
+            <span class="position">Client: GPC</span></br>
+            <span class="position">Employer: Advithri Technologies LLC</span>
+            <div style="padding-left:13px;">
+              <ul>
+                <li>Developed complex Angular 4/6 UI nested components for reuse and rapid development
+                  Angular 2 foreach SPA.</li>
+                <li>Written modular, secure, and well-tested front-end code in Typescript, ES6, HTML5 and
+                  CSS3 using the latest web Technologies. </li>
+                <li>Performed form validations using reactive forms from Angular 4/6 framework.</li>
+                <li>Used MySQLdb packageand Python-MySQL connector for writing and executing
+                  several MYSQL database queries from Python.</li>
+                <li>UsingRESTclient/ POSTMAN to check the response of various APIs as a visual
+                  documentation for back-end implementation and client-side consumption.</li>
+                <li>Creating a build process for different environments like development, staging and
+                  production.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="contact-info-upper-container">
+        <div class="row-md-12">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">Nov 2019- Jan 2020</span>
+            <h2>FrontEnd Web Developer</h2>
+            <span class="position">Client: Walmart</span></br>
+            <span class="position">Employer:Tekgigz LLC</span>
+            <div style="padding-left:13px;">
+              <ul>
+                <li>Developed dynamic web pages using HTML/HTML5, CSS/CSS3, Bootstrap, jQuery and
+                  AngularJS.</li>
+                <li>UsedReact JS for templating for faster compilation and developing reusable components.</li>
+                <li>UsedReact-Autocomplete for creating google maps location search on the webpage.</li>
+                <li>Wrote application level code to add functionality to perform client-side validation using
+                  JavaScript.</li>
+                <li>Written Ajax driven JSON consuming JavaScript functions to save user selections such as radio
+                  button, drop-down menu selections into a cookie. </li>
+                <li>UsedAjax, JSON to send requests to the server to check the functionality of the websites.</li>
+                <li>UsedJSONforstoring and exchanging information between browsers and servers.</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div>
+      <h1 class="title">My Education</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <div class="col-md-8">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2014 - 2017</span>
+              <h2>Bachelor's in Electrical and Electronics Engineering </h2>
+              <span class="position">SR University, Warangal, Telangana, India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-container">
+          <div class="col-md-8">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2018 - 2019 April</span>
+              <h2>Master's in Software Engineering</h2>
+              <span class="position">oklahoma christian university, oklahoma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section id="education">
+
+  </section> -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">ashokkanjarla0607@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/ashok-kanjarla">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="phone icon" class="icon contact-icon" />
+        <p>+1 405-215-3646</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <!-- <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav> -->
+    <p>Copyright &#169; 2023 Ashok Kanjarla. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
